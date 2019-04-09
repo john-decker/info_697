@@ -1,4 +1,4 @@
-# safe_shutdown.py
+# safe_shutdown_pi.py
 
 # script to use micro:bit as a safe off switch for the pi
 
