@@ -18,7 +18,8 @@ switch to safely shutdown a Raspberry Pi 3
 safe_shutdown_pi.py
 written for the Raspberry Pi 3 b+ using Python
 Creates a script for safely shutting down a Raspberry Pi by using a Micro:bit
-as an external off button
+as an external off button. Designed to work with a micro:bit flashed with 
+micro:bit_as_switch.py
 
 rfid_reader_pyth2.py 
 written for python 2 to take advantage of the PN532 and SPI libraries developed by 
