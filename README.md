@@ -31,3 +31,6 @@ machine.
 
 Pi_PN532_MB_Python2_Config_bb.jpg
 Fritzing diagram for wiring complete device
+
+Pi_PN532_MB_Python2_Config_small_bb.jpg
+Smaller version of Fritzing diagram for wiring complete device
