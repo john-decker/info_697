@@ -1,4 +1,4 @@
-# safe_shutdown_pi.py
+# safe_shutdown.py
 
 # script to use micro:bit as a safe off switch for the pi
 
@@ -17,7 +17,7 @@ As this project uses a Micro:Bit for the shut off switch, GPIO.IN 
 designates pin 21 as input, setting it to to a low logic level.The 
 Micro:Bit is configured to send a +3.3V signal when button b is pushed.
 This requires designating pull_down resistors to keep the circuit from
-"floating." The RPI Labs site (https://rpi.science.uoit.ca/lab/gpio/) 
+floating. The RPI Labs site (https://rpi.science.uoit.ca/lab/gpio/) 
 states that the GPIO.PUD_DOWN command means that "[t]he input is 
 considered active if it is receiving +3.3V, inactive otherwise." 
 See also: https://grantwinney.com/using-pullup-and-pulldown-
