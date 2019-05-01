@@ -27,3 +27,6 @@ https://github.com/john-decker/Adafruit_Python_PN532
 It also forked to my repository under Adafruit_Python_PN532
 This code was written for the pi to operate as a headless rfid reader and playback
 machine.
+
+Pi_PN532_MB_Python2_Config_bb.jpg
+Fritzing diagram for wiring complete device
