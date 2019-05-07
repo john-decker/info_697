@@ -2,7 +2,7 @@
 
 from microbit import *
 
-initialize Pin2 in a low logic state
+# initialize Pin2 in a low logic state
 
 pin2.write_digital(0)
 
