@@ -35,6 +35,7 @@ wired circuit, it is good practice to keep security as firm as possible.'''
 
 def good_night(channel):
     time.sleep(1) 
+	print("Shutting Down")
     subprocess.run(['sudo', 'halt'])
 
 # provide initial time for Micro:Bit to be active on boot
@@ -64,5 +65,5 @@ while True:
 '''To ensure that this code runs each time the Pi is booted, it is
 necessary to run Cron to schedule the script at each reboot. Use the
 crontab -e command and use the absolute path to the file using a
-command like @reboot python3 /home/pi/myscript.py For more information
+command like @reboot python3 /home/pi/Folder/myscript.py For more information
 see: https://www.raspberrypi.org/documentation/linux/usage/cron.md'''
