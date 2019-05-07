@@ -1,5 +1,5 @@
 # info_697
-The programs in this file were exercises for Info 697 at Pratt Institute
+The programs in this file were written for Info 697 at Pratt Institute
 
 odd_even_game.py 
 a simple game written for the Micro:bit in Micropython.
