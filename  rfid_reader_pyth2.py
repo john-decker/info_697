@@ -43,7 +43,9 @@ def play_sound_file(file):
     while pygame.mixer.music.get_busy() == True:
         continue
 
-# sound files to play. Future versions will use database         
+# sound files to play. Future versions will use database 
+# if running script from cron, absolute paths to sound files
+# are necessary (e.g. /home/pi/Folder/sound_file.wav)        
 pomander_info = 'pomander_info.wav'
 figurine_info = 'figurine_info.wav'
 gregorian_chant = 'music_info.wav'
@@ -136,5 +138,5 @@ while True:
 '''To ensure that this code runs each time the Pi is booted, it is
 necessary to run Cron to schedule the script at each reboot. Use the
 crontab -e command and use the absolute path to the file using a
-command like @reboot python3 /home/pi/myscript.py For more information
+command like @reboot python /home/pi/Folder/myscript.py For more information
 see: https://www.raspberrypi.org/documentation/linux/usage/cron.md'''
